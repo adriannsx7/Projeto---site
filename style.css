@@ -1,0 +1,67 @@
+
+body {
+    background-color: rgb(0, 136, 194);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 136, 194);
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.lista-eventos, .lista-espacos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.evento, .espaco {
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.evento img {
+    width: 250px;
+    height: 300px;
+}
+
+#detalhes-evento, #detalhes-espaco {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imagem-evento, #imagem-espaco {
+    max-width: 500px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+img1.jpg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+p {
+    font-size: 25px;
+}
