@@ -51,16 +51,20 @@ section {
     margin-bottom: 10px;
 }
 
-img1.jpg {
-    width: 200px;
-    height: 200px;
-    object-fit: cover; 
-  }
-
-  h1 {
+h1 {
     font-size: 70px;
   }
 
 p {
     font-size: 20px;
+}
+
+.espaco img {
+    width: 410px;
+    height: 300px;
+}
+
+.espaco {
+    width: 410px;
+    height: 300px;
 }
